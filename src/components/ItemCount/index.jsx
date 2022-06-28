@@ -9,8 +9,6 @@ const ItemCount = ({initial, stock}) => {
         if(count < stock){
             setCount(count+1);
         }
-
-        return setCount;
     };
 
     const onDecrement = () => {
@@ -18,8 +16,6 @@ const ItemCount = ({initial, stock}) => {
         if( count>initial ){
             setCount(count-1);
         }
-
-        return setCount;
 
     };
 

@@ -1,0 +1,61 @@
+.containerDetail{
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.containerImg{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.imageDetail{
+    height: 180px;
+    width: 240px;
+}
+.containerDescription{
+    margin: 3rem;
+}
+.containerDescription h1{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.price{
+    font-size: 1.5rem;
+}
+.containerDescription h6{
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+.titleDescription{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+.description{
+    font-weight: 300;
+}
+.containerBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.8rem;
+}
+.count{
+    width: 150px;
+}
+.btnAdd{
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 40px;
+}
+.btnAdd:hover{
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    border: 1px rgb(0, 0, 0) solid;
+}

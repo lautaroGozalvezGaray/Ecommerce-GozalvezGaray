@@ -7,11 +7,11 @@ const ItemList = ({products}) => {
     
     <div className='containerCards'>
 
-      {products.map(product => {
+      {/* {products.map(product => {
 
         return <Item products = {product} key = {product.id}/>
 
-      })}
+      })} */}
 
     </div>
     
