@@ -14,9 +14,10 @@
 
 }
 .logo{
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   margin-right: 2rem;
+  background-color: white;
 }
 ul {
   width: 100%;

@@ -2,11 +2,20 @@ import React from 'react'
 import "./styles.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ItemCount from "../ItemCount/index";
+import { useNavigate } from 'react-router-dom';
 
 
 const Item = ({products}) => {
+
+  const navigate = useNavigate();
+
+  const handleDetail = () => {
+    navigate(`/detail/${products.id}`)
+
+  }
+ 
   return (
-    <div className="card">
+    <div className="card" onClick={handleDetail}>
         <img className="Card-img-top image" src={products.image} alt={products.title}/>
         <div className="Card-body">
           <h5 className="Card-title">{products.title}</h5>

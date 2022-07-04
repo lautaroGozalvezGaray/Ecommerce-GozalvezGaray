@@ -4,7 +4,8 @@ import "./styles.css";
 
 const ItemDetail = ({product}) => {
   return (
-    <div className='containerDetail'>
+    <div className='ContainerCardDetail'>
+      <div className='containerDetail'>
         <div className='containerImg'>
             <img className='imageDetail' src={product.image} alt={product.title}/>
         </div>
@@ -19,6 +20,7 @@ const ItemDetail = ({product}) => {
                 <button className='btnAdd'>Agregar</button>
             </div>
         </div>
+      </div>
     </div>
   )
 }

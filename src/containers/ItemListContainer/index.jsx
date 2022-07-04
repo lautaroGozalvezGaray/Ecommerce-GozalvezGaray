@@ -1,13 +1,19 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 import ItemList from "../../components/ItemList";
 import "./styles.css";
 
 const ItemListContainer = ({greeting}) => {
 
 
-    const [product, setProductos] = useState(null);
+    const [product, setProductos] = useState([]);
+    const [productosFiltrados, setProductosFiltrados] = useState([])
+
+    const params = useParams();
+
+    
 
     useEffect(() => {
 
@@ -16,6 +22,7 @@ const ItemListContainer = ({greeting}) => {
             const response = await fetch('/mocks/data.json');
             const data = await response.json();
             setProductos(data);
+            setProductosFiltrados(data);
         } catch (error) {
             console.log("Hubo un error:");
             console.log(error);
@@ -29,13 +36,22 @@ const ItemListContainer = ({greeting}) => {
 
     }, [])
 
+    useEffect(() => {
+        if (params?.categoryId) {
+          const productosFiltrados = product.filter(producto => producto.category === params.categoryId)
+          setProductosFiltrados(productosFiltrados)
+        } else {
+          setProductosFiltrados(product)
+        }
+    }, [params, product])
+
     return(
         <div>
             <div>
-                {product ?
-                    <ItemList products={product} />
+                {product.length !== 0  ?
+                    <ItemList products={productosFiltrados} />
                     :
-                    null
+                    <p>Loading...</p>
                 }
             </div>
         </div>
