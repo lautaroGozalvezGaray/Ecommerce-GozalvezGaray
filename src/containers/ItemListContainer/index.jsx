@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "../../components/ItemList";
+import {SyncLoader} from "react-spinners";
 import "./styles.css";
 
 const ItemListContainer = ({greeting}) => {
@@ -51,7 +52,8 @@ const ItemListContainer = ({greeting}) => {
                 {product.length !== 0  ?
                     <ItemList products={productosFiltrados} />
                     :
-                    <p>Loading...</p>
+                    <SyncLoader margin={10} className="loader"/>
+                    
                 }
             </div>
         </div>

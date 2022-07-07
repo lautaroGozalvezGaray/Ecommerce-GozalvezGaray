@@ -1,9 +1,13 @@
 import React, { useState } from 'react'
 import "./styles.css";
 
-const ItemCount = ({initial, stock}) => {
+const ItemCount = ({initial, stock, onConfirm}) => {
 
     const [count, setCount] = useState(1);
+
+    const handleConfirm = () => {
+        onConfirm(count)
+    }
 
     const onAdd = () => {
         if(count < stock){
@@ -19,11 +23,10 @@ const ItemCount = ({initial, stock}) => {
 
     };
 
-
-
   return (
 
-    <div className='count'>
+    <div>
+        <div className='count'>
         
         <button className='buttonCount' onClick={onDecrement}>-</button>
 
@@ -31,7 +34,10 @@ const ItemCount = ({initial, stock}) => {
 
         <button className='buttonCount' onClick={onAdd}>+</button>
 
-
+        </div>
+        <div>
+            <button className='btnConfirm' onClick={handleConfirm}>Confirmar</button>
+        </div>
     </div>
     
   )
