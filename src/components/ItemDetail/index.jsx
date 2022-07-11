@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import {useNavigate} from "react-router-dom";
 import ItemCount from '../ItemCount';
+import { Shop } from "../../contex/ShopContex";
 import "./styles.css";
 
 
@@ -10,11 +11,14 @@ const ItemDetail = ({product}) => {
 
   const [qtyAdded, setQtyAdded] = useState(0);
 
+  const {addItem} = useContext(Shop);
+
   const handleConfirm = (qty) => {
     setQtyAdded(qty);
   }
 
   const handleTerminate = () => {
+    addItem(product, qtyAdded);
     navigate("/Cart");
   }
 
