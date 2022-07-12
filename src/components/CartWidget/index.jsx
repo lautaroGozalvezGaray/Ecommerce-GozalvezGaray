@@ -10,11 +10,14 @@ const CartWidget = () => {
     const {quantity} = useContext(Shop);
 
     return(
-        <div className="widgetContainer">
-            <Link to={"/Cart"} className="link"><HiShoppingCart className="icon"/>{<span>{(cart.length)}</span> && <span className="cartOne">{quantity()}</span>}</Link>
+        <>
+        {cart.length > 0 
+        ? <Link to={"/Cart"} className="link"><HiShoppingCart className="icon"/>{<span className="cartOne">{quantity()}</span>}</Link> 
+        : <Link to={"/Cart"} className="link"><HiShoppingCart className="icon"/></Link> 
 
-            
-        </div>
+        }
+        </>
+        
     )
 }
 
