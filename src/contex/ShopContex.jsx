@@ -11,7 +11,6 @@ export const ShopProvider = ({children}) => {
     const addItem = (producto, cantidad) => {
         console.log(producto, cantidad);
         const productAgain = isInCart(producto);
-        console.log(productAgain);
         if(productAgain){
             productAgain.quantity += cantidad;
             setCart([...cart]);

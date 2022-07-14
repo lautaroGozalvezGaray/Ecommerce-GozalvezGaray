@@ -6,6 +6,7 @@ import {MdDeleteForever} from "react-icons/md";
 import "./styles.css";
 import { Link } from 'react-router-dom';
 
+// componente cart encargado de mostrar los productos en un carrito de compra
 
 export const Cart = () => {
   const {cart} = useContext(Shop);
@@ -43,7 +44,7 @@ export const Cart = () => {
                 </tr>
                 {cart.map(producto => {
                     return(
-                      <tr className='trProduct'>
+                      <tr key={producto.id} className='trProduct'>
                         <td className='tdDescription'>{producto.quantity}</td>
                         <td className='tdDescription'>{producto.category}</td>
                         <td className='tdProduct'><img className="imageCart" src={producto.image} alt={producto.title}/>{producto.title}</td>
@@ -63,7 +64,7 @@ export const Cart = () => {
               </tbody>
             </table>
             <div className='containerBtnDelete'>
-              <button onClick={removeAll}>Borrar Todo</button>
+              <button key={1} onClick={removeAll}>Borrar Todo</button>
             </div>
           </div>
         </div>

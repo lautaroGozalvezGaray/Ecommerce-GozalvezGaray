@@ -3,19 +3,17 @@
   flex-direction: row;
   justify-content: space-between;
   width: 95%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  margin-left: 3rem;
-  margin-right: 3rem;
   background-color: rgb(255, 255, 255);
   border-bottom: 3px solid black;
   align-items: center;
 
 }
 .logo{
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   margin-right: 2rem;
   background-color: white;
 }
@@ -51,4 +49,8 @@ li a:hover {
 
 .link:hover{
   color: black;
+}
+
+.titleEcommerce{
+  margin-top: 10px;
 }

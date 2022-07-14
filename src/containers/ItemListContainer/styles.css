@@ -5,3 +5,24 @@
     margin-top: 15rem;
     margin-left: 45%;
 }
+.containerTitleHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 95%;
+    border-radius: 5px;
+}
+.TitleHome{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.h1Title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-top: 0.5rem;
+}

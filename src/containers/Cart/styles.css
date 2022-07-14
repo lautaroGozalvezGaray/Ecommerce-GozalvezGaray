@@ -62,10 +62,16 @@
     border: 1px rgb(0, 0, 0) solid;
 }
 .cartEmpty{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     height: 70vh;
     justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 7rem;
     align-items: center;
 }
 .iconEmpty{

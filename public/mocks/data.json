@@ -1,195 +1,131 @@
 [
     {
-        "id": 1,
-        "title": "Fjallraven - Fits 15 Laptops",
-        "price": 109.95,
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 120
-        }
+        "title": "Xiaomi Redmi Note 11",
+        "price": 84.500,
+        "description": "El Xiaomi Redmi Note 11 llega en su versión global con grandes diferencias respecto del lanzado en China. El Redmi Note 11 cuenta con una pantalla AMOLED de 6.43 pulgadas a resolución FHD+ y tasa de refresco de 90Hz. Potenciado por un procesador Snapdragon 680, el Redmi Note 11 cuenta con opciones de 4GB o 6GB de RAM y 64GB o 128GB de almacenamiento interno. La cámara posterior del Redmi Note 11 es cuádruple, con lente principal de 50MP, y su cámara selfie es de 13MP. La batería del Redmi Note 11 es de 5000 mAh y soporta carga rápida de 33W, completando sus características con parlantes stereo, lector de huellas lateral, y MIUI 13 basado en Android 11.",
+        "category": "celulares",
+        "image": "https://i.ibb.co/KGY0Rn8/Xiaomi-Redmi-Note-11-Snapdragon-Dual-SIM-128-GB-gris-grafito-4-GB-RAM.png",
+        "stock": 14
     },
     {
-        "id": 2,
-        "title": "Mens Casual Premium Slim Fit ",
-        "price": 22.3,
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-        }
+        "title": "Xiaomi Redmi Note 10 Pro",
+        "price": 108.000,
+        "description": "El Xiaomi Redmi Note 10 Pro es el smartphone más poderoso de la serie. Con una pantalla AMOLED Full HD+ de 6.67 pulgadas y tasa de refresco de 120Hz, el Redmi Note 10 Pro está potenciado por el procesador Snapdragon 732G de Qualcomm, con 6GB o 8GB de memoria RAM y 64GB o 128GB de almacenamiento interno expandible. La cámara posterior del Redmi Note 10 Pro consta de cuatro lentes de 108MP, 8MP, 5MP y 2MP, mientras que la cámara selfie es de 16MP. La energía es provista por una batería de 5020 mAh de carga rápida, cuenta con parlantes stereo, lector de huellas de costado y corre Android 11 con MIUI 12.",
+        "category": "celulares",
+        "image": "https://i.ibb.co/NxSFTmT/Xiaomi-Redmi-Note-10-Pro-Global-Dual-SIM-128-GB-azul-glaciar-6-GB-RAM.png",
+        "stock": 11
     },
     {
-        "id": 3,
-        "title": "Mens Cotton Jacket",
-        "price": 55.99,
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-        "rating": {
-            "rate": 4.7,
-            "count": 500
-        }
+        "title": "Samsung Galaxy S22 Ultra",
+        "price": 306.000,
+        "description": "El Samsung Galaxy S22 Ultra es el verdadero flagship de la serie Galaxy S22, siendo el sucesor tanto del Galaxy S21 Ultra como del Galaxy Note 20 Ultra incorporando el stylus S Pen. El Galaxy S22 Ultra cuenta con una pantalla AMOLED de 6.8 pulgadas a resolución QHD+ y tasa de refresco de 120Hz. Por dentro, encontramos un procesador Snapdragon 8 Gen 1 de Qualcomm para USA,  recibe la variante con Exynos 2200  con hasta 12GB de RAM y 1TB de almacenamiento. El Galaxy S22 Ultra es alimentado por una batería de 5000 mAh con soporte para carga rápida de 45W por cable y carga inalámbrica de 15W. El Galaxy S22 Ultra cuenta con un conjunto de cuatro cámaras posteriores, con la principal de 108MP, ultrawide de 12MP, una cámara telefoto de 10MP y una cámara telefoto periscópica de 10MP, mientras que la cámara selfie es de 40MP y completa sus características con parlantes stereo, resistencia al agua, lector de huellas bajo pantalla y corre Android 12.",
+        "category": "celulares",
+        "image": "https://i.ibb.co/88q41P3/Samsung-Galaxy-S22-Ultra-12gb-256gb-Green.png",
+        "stock": 8
     },
     {
-        "id": 4,
-        "title": "Mens Casual Slim Fit",
-        "price": 15.99,
-        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-        "rating": {
-            "rate": 2.1,
-            "count": 430
-        }
+        "title": "Samsung Galaxy S21 Fe",
+        "price": 167.999,
+        "description": "El Samsung Galaxy S21 FE 5G es la edición para fanáticos de la serie Galaxy S21. Se trata de un smartphone Android con una pantalla AMOLED FHD+ de 6.4 pulgadas con tasa de refresco de 120Hz. El Galaxy S21 FE llega en dos variantes: una con procesador Snapdragon 888 - con 8GB de RAM y 256GB de almacenamiento interno. El conjunto de cámaras dorsal del Galaxy S21 FE consta de un sensor de 12MP con OIS, una cámara ultrawide de 12MP, y una cámara telefoto de 8MP con OIS, mientras que la cámara selfie es de 32MP. Alimentado por una batería de 4500 mAh de carga rápida, el Galaxy S21 FE 5G admite carga inalámbrica, cuenta con lector de huellas debajo de la pantalla, y llega con One UI 4 basado en Android 12 de fábrica.",
+        "category": "celulares",
+        "image": "https://i.ibb.co/88q41P3/Samsung-Galaxy-S22-Ultra-12gb-256gb-Green.png",
+        "stock": 18
     },
     {
-        "id": 5,
-        "title": "John Hardy Women's Legends",
-        "price": 695,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 4.6,
-            "count": 400
-        }
+        "title": "Motorola MOTO G60S",
+        "price": 65.500,
+        "description": "El Motorola Moto G60S es una variante del Moto G60 con una pantalla FHD+ de 6.8 pulgadas y tasa de refresco de 120Hz. Por dentro, encontramos un procesador MediaTek Helio G95, acompañado de 6GB de memoria RAM con 128GB de almacenamiento interno. La cámara principal del Moto G60S es cuádruple, con lentes de 64MP, 8MP, 5MP y 2MP, mientras que la cámara selfie es de 16MP. Completando las características del Moto G60S encontramos una batería de 5000 mAh de carga rápida, lector de huellas, y Android 11.",
+        "category": "celulares",
+        "image": "https://i.ibb.co/NphZ5Rt/Moto-G60s-128-GB-azul-6-GB-RAM.png",
+        "stock": 5
     },
     {
-        "id": 6,
-        "title": "Solid Gold Petite Micropave ",
-        "price": 168,
-        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 70
-        }
+        "title": "Motorola Edge 20 Lite",
+        "price": 79.999,
+        "description": "El Motorola Edge 20 Lite es parte de la nueva serie Edge 20 de Motorola. Con una pantalla OLED de 6.7 pulgadas a resolución FHD+ y tasa de refresco de 90Hz, el Edge 20 Lite cuenta con un procesador Dimensity 720 con 6GB de memoria RAM y 128GB de almacenamiento interno. La cámara posterior triple del Motorola Edge 20 Lite cuenta con sensor principal de 108MP, y secundarios de 8MP y 2MP, y la cámara selfie es de 32MP. Alimentado por una batería de 5000 mAh de carga rápida, el Edge 20 Lite tiene lector de huellas lateral, diseño repelente al agua, y corre Android 11.",
+        "category": "celulares",
+        "image": "https://i.ibb.co/h1BRMdH/Motorola-Edge-20-Lite-128-GB-gris-6-GB-RAM.png",
+        "stock": 7
     },
     {
-        "id": 7,
-        "title": "White Gold Plated Princess",
-        "price": 9.99,
-        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 3,
-            "count": 400
-        }
+        "title": "ThinkPad E14 2da Gen (14”, Intel)",
+        "price": 263.000,
+        "description": "Rendimiento, esencia y estilo Procesamiento hasta Intel® Core™ i7 de 11va generación, PC liviana y elegante de 14 Encendido de un solo toque con inicio de sesión opcional Modern Standby y teclas de control de llamadas Sólidas funciones de seguridad Excelente para profesionales de negocios en movimiento y estudiantes",
+        "category": "notebooks",
+        "image": "https://i.ibb.co/98zM9dh/Notebook-Lenovo-Think-Pad-E14-black-14.png",
+        "stock" : 20
     },
     {
-        "id": 8,
-        "title": "Pierced Owl Rose Gold",
-        "price": 10.99,
-        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 1.9,
-            "count": 100
-        }
+        "title": "Lenovo 14'' IdeaPad S940 Laptop",
+        "price": 128.000,
+        "description": "Se adapta a tu rendimiento. /n Procesamiento hasta Intel® Core™ de 10ma generación. Pantalla de 15.6” hasta FHD touch (opcional). Opciones de tarjeta gráfica independiente en algunos modelos. Tapa de privacidad para la cámara web y teclado numérico para mayor productividad. Lector de huellas en botón de encendido y unidad óptica opcionales; puertos/ranuras pueden variar - colores sujetos a disponibilidad",
+        "category": "notebooks",
+        "image": "https://i.ibb.co/68k4JQ0/Notebook-Lenovo-Idea-Pad-15-ITL6-arctic-grey-t-ctil-15-6.png",
+        "stock": 4
     },
     {
-        "id": 9,
-        "title": "WD 2TB Elements Portable",
-        "price": 64,
-        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-        "rating": {
-            "rate": 3.3,
-            "count": 203
-        }
+        "title": "Notebook gamer Dell G15",
+        "price": 284.999,
+        "description": "Esta Notebook pertenece a nuestra gama gamer. Sirve para todo lo que te puedas imaginar. Viene con Windows 11 Home instalado. Sirve para navegar por internet, mandar mails, hacer conferencias por Zoom o Google Meet, ver videos o películas en calidad FULL HD, aplicaciones demandantes para diseñar o editar y otras tareas de ese estilo. Pero su fuerte principal es el gaming en 1080p gracias su placa de video Nvidia RTX 3050Ti y pantalla de 120hz. Posee una pantalla FULLHD de 15,6 pulgadas con panel IPS de 120Hz. Además trae 8GB de RAM, disco M2 de 512GB. Tiene un diseño hermoso y muy moderno, es de color plateado con detalles en color naranja. Es liviana y fácil de transportar. Ideal para llevar tus juegos con vos a todos lados!",
+        "category": "notebooks",
+        "image": "https://i.ibb.co/tmGPCg8/Notebook-gamer-Dell-G15-Ryzen-Edition-phantom-gray-15-6.png",
+        "stock": 16
     },
     {
-        "id": 10,
-        "title": "SanDisk SSD PLUS 1TB Internal SSD",
-        "price": 109,
-        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 470
-        }
+        "title": "Notebook EXO Smart P33",
+        "price": 74.999,
+        "description": "La notebook EXO Smart P33 es una solución tanto para trabajar y estudiar como para entretenerte. Al ser portátil, el escritorio dejará de ser tu único espacio de uso para abrirte las puertas a otros ambientes ya sea en tu casa o en la oficina.",
+        "category": "notebooks",
+        "image": "https://i.ibb.co/hdKLQXQ/Notebook-EXO-Smart-P33-gris-14-1.png",
+        "stock": 2
     },
     {
-        "id": 11,
-        "title": "Silicon Power 256GB SSD 3D",
-        "price": 109,
-        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-        "rating": {
-            "rate": 4.8,
-            "count": 319
-        }
+        "title": "Notebook ASUS X515",
+        "price": 109.999,
+        "description": "Notebook. Pantalla FHD /16:09 Antiglare de 15.6. Capacidad de disco: 256Gb SSD. Ram: 4Gb. Procesador: Intel Core i3-1115G4. Placa de video: Graficos UHD Intel Core para procesadores Intel de 11 Generacion. Sistema Operativo: Windows 10 Home. HDMI. WIFI., Bluetooth. Teclado numerico. Bateria: 37WHrs, 2S1P, 2-cell Li-ion.",
+        "category": "notebooks",
+        "image": "https://i.ibb.co/YXDXfLD/Notebook-Asus-X515-EA-slate-gray-15-6.png",
+        "stock":0
     },
     {
-        "id": 12,
-        "title": "WD 4TB Gaming Drive",
-        "price": 114,
-        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 4.8,
-            "count": 400
-        }
+        "title": "MSI Crosshair 15 Gaming Core i7-11800H",
+        "price": 300.000,
+        "description": "MSI Crosshair 15 15.6″ 144Hz Gaming Laptop Intel Core i7-11800H 16GB RAM 512GB SSD RTX 3050 4GB GDDR6. 11th Gen i7-11800H Octa-core. NVIDIA GeForce RTX 3050 4GB GDDR6. 144 Hz Refresh Rate. In-plane Switching (IPS) Technology. Windows 10 Home",
+        "category": "notebooks",
+        "image": "https://i.ibb.co/YdnT6qp/Msi-Crosshair-Core-I7-11800h-16gb-512gb-15-6-144hz-Rtx3050.png",
+        "stock":1
     },
     {
-        "id": 13,
-        "title": "Acer SB220Q bi 21.5 inches Full HD",
-        "price": 599,
-        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 250
-        }
+        "title": "Galaxy Tab A7",
+        "price": 60.000,
+        "description": "Con diseño delgado, un sistema de entretenimiento vibrante y un rendimiento excepcional, la nueva A7 es una innovadora y elegante compañera para tu vida. Sumergite de lleno en las cosas que más te gustan y compartí fácilmente tus momentos favoritos. Aprendé, explorá, conectate y mantenete inspirado.",
+        "category": "tablets",
+        "image": "https://i.ibb.co/W5tCvYW/Tablet-Samsung-Galaxy-Tab-A7-Lite-SM-T220-8-7.png",
+        "stock":24
     },
     {
-        "id": 14,
-        "title": "Samsung 49-Inch CHG90 144Hz",
-        "price": 999.99,
-        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.2,
-            "count": 140
-        }
+        "title": "Tablet-con-funda-Gadnic-Taurus",
+        "price": 27.999,
+        "description": "La Tablet 10” Gadnic TAB0024C forma parte del segmento premium de tablets de la marca. Con su pantalla IPS de 10,1 pulgadas con resolución de 1280x800px es ideal para reproducir cualquier tipo de contenido, cuenta con una elegante carcasa de aluminio y entrada para NANO CHIP para que puedas hacer llamadas y navegar con la red de datos 3G desde donde quieras.",
+        "category": "tablets",
+        "image": "https://i.ibb.co/vZPf4mt/Tablet-con-funda-Gadnic-Taurus-Phone-TAB0024-C-10-1.png",
+        "stock":15
     },
     {
-        "id": 15,
-        "title": "BIYLACLESEN Women's 3-in-1",
-        "price": 56.99,
-        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-        "rating": {
-            "rate": 2.6,
-            "count": 235
-        }
+        "title": "Tablet Apple iPad Air 4th Gen",
+        "price": 189.000,
+        "description": "Apple iPad Air 4th 64GB Wi-Fi Lleno de potencia, color y posibilidades. El iPad Air es más capaz que una computadora, y todo lo hace de una forma más mágica y sencilla. Y ahora, con aún más funcionalidades y capacidades, es más versátil que nunca.",
+        "category": "tablets",
+        "image": "https://i.ibb.co/2cw35JZ/Apple-i-Pad-Air-de-10-9-WI-FI-64-GB-Oro-rosa-4-generaci-n.png",
+        "stock": 4
     },
     {
-        "id": 16,
-        "title": "Lock and Love Women's ",
-        "price": 29.95,
-        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 340
-        }
+        "title": "Tablet Apple iPad 9th Generation",
+        "price": 119000,
+        "description": "Apple iPad 9th Generation 10.2 64GB Wi-Fi./n Poderoso. Fácil de usar. Versátil. El nuevo iPad tiene una hermosa pantalla Retina de 10,2 pulgadas, un potente chip A13 Bionic, una cámara frontal ultra ancha con Center Stage y funciona con el Apple Pencil y el Smart Keyboard. El iPad te permite hacer más y más fácilmente. Todo por un valor increíble.",
+        "category": "tablets",
+        "image": "https://i.ibb.co/DfGSY6J/Apple-i-Pad-9-generaci-n-10-2.png",
+        "stock":3
     },
     {
         "id": 17,

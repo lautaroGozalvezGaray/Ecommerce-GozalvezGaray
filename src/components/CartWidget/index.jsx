@@ -10,6 +10,7 @@ const CartWidget = () => {
     const {quantity} = useContext(Shop);
 
     return(
+        // componente icono  de carrito de compra que tiene un numero que muestra los productos agregados
         <>
         {cart.length > 0 
         ? <Link to={"/Cart"} className="link"><HiShoppingCart className="icon"/>{<span className="cartOne">{quantity()}</span>}</Link> 

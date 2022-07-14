@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./styles.css";
-
+// componente que maneja el boton contador de productos
 const ItemCount = ({initial, stock, onConfirm}) => {
 
     const [count, setCount] = useState(1);

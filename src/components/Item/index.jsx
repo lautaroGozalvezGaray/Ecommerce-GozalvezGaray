@@ -3,7 +3,7 @@ import "./styles.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
 
-
+// componente que muestra todos los productos en forma de cart 
 const Item = ({products}) => {
 
   const navigate = useNavigate();
@@ -21,6 +21,12 @@ const Item = ({products}) => {
         </div>
         <div>
           <h6>$ {products.price}</h6>
+          {products.stock>0 
+          ?
+            <p className='stock'>Stock disponible: {products.stock}</p>
+          :
+            <p className='stockOff'>Sin stock</p>
+          }
         </div>
         <div>
           <button className='buttonBuy'>Ver más</button>
