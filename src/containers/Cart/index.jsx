@@ -12,17 +12,8 @@ export const Cart = () => {
   const {cart} = useContext(Shop);
   const {removeItem} = useContext(Shop);
   const {removeAll} = useContext(Shop);
+  const {totalItems} = useContext(Shop);
 
-  //funcion para calcular el total de los items
-
-  const totalItems = () => {
-    let total=0;
-    cart.map((element) => (
-      total += parseFloat(element.price * element.quantity)
-    ));
-    return total;
-  }
-  
   
  return(
 
@@ -67,6 +58,11 @@ export const Cart = () => {
               <button key={1} onClick={removeAll}>Borrar Todo</button>
             </div>
           </div>
+        </div>
+        <div className='btnCheckOut'>
+          <ul>
+            <li><Link className="linkCheck" to={"/Form"} >Check-Out</Link></li>
+          </ul>
         </div>
       </>
       :

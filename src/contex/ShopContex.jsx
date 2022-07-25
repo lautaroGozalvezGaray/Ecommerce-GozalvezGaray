@@ -4,7 +4,6 @@ import { useState } from 'react';
 export const Shop = createContext();
 
 export const ShopProvider = ({children}) => {
-    const [estadoA, setEstadoA] = useState("valor por defecto");
     const [cart, setCart] = useState([]);
 
     // funcion para agregar un item y que no se repita
@@ -52,8 +51,16 @@ export const ShopProvider = ({children}) => {
         return cart.find(elemento => elemento.id === product.id)
     }
 
+    const totalItems = () => {
+        let total=0;
+        cart.map((element) => (
+          total += parseFloat(element.price * element.quantity)
+        ));
+        return total;
+    }
+
     return (
-        <Shop.Provider value={{estadoA, setEstadoA, addItem, cart, removeItem, removeAll, quantity}}>
+        <Shop.Provider value={{totalItems, addItem, cart, removeItem, removeAll, quantity}}>
             {children}
         </Shop.Provider>
   )
