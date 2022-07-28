@@ -1,6 +1,6 @@
 # FULL TECNOLOGY
 
-![React App](https://raw.githubusercontent.com/lautaroGozalvezGaray/Ecommerce-GozalvezGaray/main/src/Assets/bloggif_62e30acb0138f.gif)
+![React App](https://raw.githubusercontent.com/lautaroGozalvezGaray/Ecommerce-GozalvezGaray/main/src/Assets/f5e39b5f-5fda-4616-843a-2eb74d8d4887.gif)
 
 ## Descripción
 
