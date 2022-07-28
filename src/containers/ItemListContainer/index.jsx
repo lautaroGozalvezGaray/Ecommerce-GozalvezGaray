@@ -29,8 +29,6 @@ const ItemListContainer = ({greeting}) => {
 
             const productos = [];
             querySnapshot.forEach((doc) => {
-                // doc.data() is never undefined for query doc snapshots
-                /* console.log(doc.id, " => ", doc.data()); */
                 productos.push({id: doc.id, ...doc.data()});
 
             });
@@ -39,21 +37,18 @@ const ItemListContainer = ({greeting}) => {
 
             setProductos(productos);
             setProductosFiltrados(productos);
-
-
-            /* const response = await fetch('/mocks/data.json');
-            const data = await response.json(); */
-            
+    
         } catch (error) {
             console.log("Hubo un error:");
             console.log(error);
         }
         }
 
-        setTimeout(()=>{
+        /* setTimeout(()=>{
             getProductos();
-        },2000)
+        },2000) */
         
+        getProductos();
 
     }, [])
 

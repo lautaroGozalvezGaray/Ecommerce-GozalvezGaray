@@ -36,14 +36,8 @@ const ItemDetailContainer = () => {
                     setLoading(false)
 
                 } else {
-                    // doc.data() will be undefined in this case
                     console.log("No such document!");
                 }
-
-                /* const response = await fetch(`https://fakestoreapi.com/products/${params.productId}`);
-                const data = await response.json();
-                setProductDetail(data)
-                setLoading(false) */
                 
             } catch (error) {
                 console.log(error);
@@ -54,12 +48,14 @@ const ItemDetailContainer = () => {
         }
 
     
-        setTimeout(() => {
+        /* setTimeout(() => {
 
             getProduct();
             
 
-        },2000);
+        },2000); */
+
+        getProduct();
 
     }, [params])
 
