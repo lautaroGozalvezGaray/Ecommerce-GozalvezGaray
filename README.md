@@ -25,8 +25,6 @@ y en firebase se guarda la orden con los productos que compró.
 
 - Sweetalert2 "^11.4.24": Se agregó para mostrar un mensaje luego de que el usuario finalize la comrpa el cual muestra si hay un error o  si la orden se genero con exíto.
 
-- react-toastify "^9.0.7": Se utiliza para mostrar un error en caso de que se produzca por ejemplo en los componentes itemListContainer, itemDetailContainer, Cart.
-
 ## Descargar y correr el proyecto
 
 Una vez clonado o descargado el proyecto, instalar dependencias:

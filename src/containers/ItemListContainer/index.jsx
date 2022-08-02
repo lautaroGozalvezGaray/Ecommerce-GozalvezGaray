@@ -4,10 +4,9 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "../../components/ItemList";
 import {SyncLoader} from "react-spinners";
-import { collection, query, getDocs } from "firebase/firestore";
 import "./styles.css";
-import { db } from "../../Firebase/config";
 import Swal from "sweetalert2";
+import getProducts from "../../utils/GetProducts";
 
 
 const ItemListContainer = () => {
@@ -15,15 +14,13 @@ const ItemListContainer = () => {
 
     const [product, setProductos] = useState([]);
     const [productosFiltrados, setProductosFiltrados] = useState([])
-
-
     const params = useParams();
 
     useEffect(() => {
 
         const getProductos = async () => {
             try {
-                const q = query(collection(db, "products" ));
+                /* const q = query(collection(db, "products" ));
 
                 const querySnapshot = await getDocs(q);
 
@@ -31,7 +28,9 @@ const ItemListContainer = () => {
                 querySnapshot.forEach((doc) => {
                     productos.push({id: doc.id, ...doc.data()});
 
-                });
+                }); */
+
+                const productos = await getProducts("products");
 
                 setProductos(productos);
                 setProductosFiltrados(productos);
