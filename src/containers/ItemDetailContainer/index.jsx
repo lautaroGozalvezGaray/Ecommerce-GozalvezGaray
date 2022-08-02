@@ -6,6 +6,8 @@ import { SyncLoader } from 'react-spinners';
 import ItemDetail from '../../components/ItemDetail';
 import { doc, getDoc } from "firebase/firestore";
 import { db } from '../../Firebase/config';
+import Swal from 'sweetalert2';
+
 
 // componente que se encarga de mostrar el detalle del producto
 
@@ -24,42 +26,40 @@ const ItemDetailContainer = () => {
 
             try {
 
-                const docRef = doc(db, "products", params.productId);
+               const docRef = doc(db, "products", params.productId);
                 
-                const docSnap = await getDoc(docRef);
+               const docSnap = await getDoc(docRef);
                 
 
                 if (docSnap.exists()) {
-                    console.log("Document data:", docSnap.data());
                     const productDetail = {id : docSnap.id, ...docSnap.data()}
                     setProductDetail(productDetail)
                     setLoading(false)
 
                 } else {
-                    console.log("No such document!");
+                    Swal.fire({
+                        title: `¡El producto requerido no existe!`,
+                        icon: 'error',
+                        confirmButtonText: 'Ok'
+                    })
                 }
                 
             } catch (error) {
-                console.log(error);
                 setLoading(true)
                 setError(true)
+                Swal.fire({
+                    title: `¡Se produjo un error!`,
+                    text: `Error code: ${error}`,
+                    icon: 'error',
+                    confirmButtonText: 'Ok'
+                })
             }
 
         }
 
-    
-        /* setTimeout(() => {
-
-            getProduct();
-            
-
-        },2000); */
-
         getProduct();
 
     }, [params])
-
-    console.log(productDetail);
 
     return (
         

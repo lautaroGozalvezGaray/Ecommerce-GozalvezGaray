@@ -7,47 +7,45 @@ import {SyncLoader} from "react-spinners";
 import { collection, query, getDocs } from "firebase/firestore";
 import "./styles.css";
 import { db } from "../../Firebase/config";
+import Swal from "sweetalert2";
 
-const ItemListContainer = ({greeting}) => {
+
+const ItemListContainer = () => {
 
 
     const [product, setProductos] = useState([]);
     const [productosFiltrados, setProductosFiltrados] = useState([])
 
-    const params = useParams();
 
-    
+    const params = useParams();
 
     useEffect(() => {
 
         const getProductos = async () => {
-        try {
+            try {
+                const q = query(collection(db, "products" ));
 
-            const q = query(collection(db, "products"));
+                const querySnapshot = await getDocs(q);
 
-            const querySnapshot = await getDocs(q);
+                const productos = [];
+                querySnapshot.forEach((doc) => {
+                    productos.push({id: doc.id, ...doc.data()});
 
-            const productos = [];
-            querySnapshot.forEach((doc) => {
-                productos.push({id: doc.id, ...doc.data()});
+                });
 
-            });
-
-            console.log(productos)
-
-            setProductos(productos);
-            setProductosFiltrados(productos);
-    
-        } catch (error) {
-            console.log("Hubo un error:");
-            console.log(error);
-        }
-        }
-
-        /* setTimeout(()=>{
-            getProductos();
-        },2000) */
+                setProductos(productos);
+                setProductosFiltrados(productos);
         
+            } catch (error) {
+                Swal.fire({
+                    title: `No se pudieron obtener los producutos!`,
+                    text: `Error code: ${error}`,
+                    icon: 'error',
+                    confirmButtonText: 'Ok'
+                })
+            }
+        }
+
         getProductos();
 
     }, [])
@@ -72,6 +70,8 @@ const ItemListContainer = ({greeting}) => {
                     </>
                     :
                     <SyncLoader margin={10} className="loader"/>
+
+            
                     
                 }
             </div>

@@ -23,8 +23,6 @@ const ItemDetail = ({product}) => {
     navigate("/Cart");
   }
 
-  console.log(qtyAdded);
-
   return (
     <div className='ContainerCardDetail'>
       <div className='containerDetail'>

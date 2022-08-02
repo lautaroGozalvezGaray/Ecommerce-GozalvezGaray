@@ -38,7 +38,7 @@ export const Cart = () => {
                       <tr key={producto.id} className='trProduct'>
                         <td className='tdDescription'>{producto.quantity}</td>
                         <td className='tdDescription'>{producto.category}</td>
-                        <td className='tdProduct'><img className="imageCart" src={producto.image} alt={producto.title}/>{producto.title}</td>
+                        <td className='tdProduct'><Link className='linkProduct' to={`/detail/${producto.id}`}><img className="imageCart" src={producto.image} alt={producto.title}/>{producto.title}</Link></td>
                         <td className='tdDescription'>${producto.price} <Link onClick={() => removeItem(producto.id)} to={"#"}><MdDeleteForever className='iconDetele'/></Link></td>
                       </tr>
                     )

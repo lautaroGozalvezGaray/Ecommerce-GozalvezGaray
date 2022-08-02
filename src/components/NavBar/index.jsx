@@ -3,12 +3,9 @@ import CartWidget from "../CartWidget";
 import "./styles.css";
 import logo2 from "../../Assets/logo2.png"
 import { Link } from "react-router-dom";
-/* import { useContext } from "react";
-import { Shop } from "../../contex/ShopContex"; */
 
 const NavBar = () =>{
 
-    /* const {estadoA} = useContext(Shop); */
     return(
         <div className="navContainer">
             <Link to={"/"}><img src={logo2} alt="logo" className="logo"></img></Link>

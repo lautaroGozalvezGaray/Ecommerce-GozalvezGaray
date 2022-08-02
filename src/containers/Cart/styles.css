@@ -117,3 +117,11 @@
     color: rgb(0, 0, 0);
     border: 1px rgb(0, 0, 0) solid;
 }
+
+.linkProduct{
+    text-decoration: none;
+    color: black;
+}
+.linkProduct:hover{
+    color:rgb(117, 117, 117);
+}

@@ -8,7 +8,6 @@ export const ShopProvider = ({children}) => {
 
     // funcion para agregar un item y que no se repita
     const addItem = (producto, cantidad) => {
-        console.log(producto, cantidad);
         const productAgain = isInCart(producto);
         if(productAgain){
             productAgain.quantity += cantidad;

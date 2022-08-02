@@ -1,6 +1,6 @@
 # FULL TECNOLOGY
 
-![React App](https://raw.githubusercontent.com/lautaroGozalvezGaray/Ecommerce-GozalvezGaray/main/src/Assets/f5e39b5f-5fda-4616-843a-2eb74d8d4887.gif)
+![React App](https://raw.githubusercontent.com/lautaroGozalvezGaray/Ecommerce-GozalvezGaray/main/src/Assets/LG.gif)
 
 ## Descripción
 
@@ -24,6 +24,8 @@ y en firebase se guarda la orden con los productos que compró.
 - React-spinners "^0.13.3": Con esta dependencia se incorporó un loader para mientras los productos son traidos desde la base de datos.
 
 - Sweetalert2 "^11.4.24": Se agregó para mostrar un mensaje luego de que el usuario finalize la comrpa el cual muestra si hay un error o  si la orden se genero con exíto.
+
+- react-toastify "^9.0.7": Se utiliza para mostrar un error en caso de que se produzca por ejemplo en los componentes itemListContainer, itemDetailContainer, Cart.
 
 ## Descargar y correr el proyecto
 
